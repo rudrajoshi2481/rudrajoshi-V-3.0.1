@@ -1,24 +1,20 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-
+import Header from './Utils/Header/Header'
+import Carousel from './Components/Coursal/Coursal'
+import Paragraph from './Components/Paragraph/Paragraph'
+import Showoff from './Components/Showoff/Showoff'
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* Header Section contains Nav-Bar and Contact Info */}
+        <Header />
+      {/* Coursal contains Photos of Blogs Info Text Editor Info etc */}
+        <Carousel />
+      {/* Paragraph of the Resume */}
+        <Paragraph />
+      {/* Badges and Skill and Showoff Stuff */}
+        <Showoff />
     </div>
   );
 }

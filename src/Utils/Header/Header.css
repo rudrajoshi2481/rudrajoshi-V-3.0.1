@@ -1,0 +1,22 @@
+.header-nav{
+    width: 100%;
+    margin-top: 3%;
+}
+
+.brandName-header{
+    
+}
+
+.header-nav-ul{
+    display:flex;
+    justify-content:space-between;
+    list-style: none;
+    align-items: baseline;
+}
+
+@media (max-width:700px){
+    .header-nav-ul{
+        display:flex;
+        flex-direction:column
+    }
+}
