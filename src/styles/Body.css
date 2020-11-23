@@ -7,7 +7,7 @@
 }
 
 .body-info-container-btn{
-    margin-top: 10%;
+    margin-top: 5%;
     background: #FF6B81;
 box-shadow: 4px 7px 4px rgba(0, 0, 0, 0.25);
 border-radius: 7px;
@@ -20,4 +20,11 @@ padding-top:.5em;
         text-justify: distribute-all-lines;
     font-size: 32px;
 }
+
+
+.body-icons-div{
+    position: absolute;
+    z-index: 0;
+}
+
 }

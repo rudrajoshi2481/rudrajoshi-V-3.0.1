@@ -1,0 +1,63 @@
+.fullstack-info-container{
+    height: 40vh;
+    background-color: #9090FB;
+    color: white;
+    /* background-color: #6C5FEA; */
+    /* background-color: teal; */
+}
+
+
+.fullstack-info-main{
+    padding-top: 5vh;
+    margin: 0 10vw;
+}
+
+.fullstack-div{
+    display: flex;
+    /* justify-content: space-around; */
+    text-align: left;
+}
+.fullstack-span-div{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fullstack-span-pills-frontend{
+    margin: .5em;
+    font-size: 20px;
+    background-color: #FFA402;
+    padding:.5em;
+    border-radius: 5px;
+}
+
+
+.fullstack-span-pills-frontend{
+    margin: .5em;
+    font-size: 20px;
+    background-color: #FFA402;
+    padding:.5em;
+    border-radius: 5px;
+}
+.fullstack-span-pills-backend{
+    margin: .5em;
+    font-size: 20px;
+    background-color: #FF6B81;
+    padding:.5em;
+    border-radius: 5px;
+}
+
+@media(max-width:600px){
+    
+    
+    .fullstack-div{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        
+    }
+
+    .fullstack-webstack-tag{
+        /* text-justify: ; */
+        font-size: 32px;
+    }
+}
