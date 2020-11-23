@@ -1,0 +1,38 @@
+
+.header-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-brand-name{
+    margin-left: 5vw;
+    font-size:62px ;
+    color:black;
+    filter: drop-shadow(5px 5px 4px rgba(0, 0, 0, 0.25));
+}
+
+.header-links-ul{
+    margin-right: 10vw;
+    display: flex;
+    list-style: none;
+}
+
+@media(min-width:600px){
+    .header-bars{
+        visibility: hidden;
+    }
+}
+
+
+@media(max-width:600px){
+    .header-bars{ 
+        font-size: 38px;
+        visibility: visible ;
+        margin-right: 8%;
+     }
+    .header-links{
+        display: none;
+    }
+    
+}
