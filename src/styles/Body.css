@@ -4,6 +4,12 @@
     align-items: center;
     height: 70vh;
     margin:0 2.5vw ;
+    z-index: 1;
+}
+
+.Masterpiece-button:hover{
+    background-color:tomato;
+
 }
 
 .body-info-container-btn{

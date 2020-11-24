@@ -18,6 +18,9 @@
     list-style: none;
 }
 
+.header-bars{
+    visibility: hidden;
+}
 @media(min-width:600px){
     .header-bars{
         visibility: hidden;
@@ -26,13 +29,13 @@
 
 
 @media(max-width:600px){
-    .header-bars{ 
+    /* .header-bars{ 
         font-size: 38px;
         visibility: visible ;
         margin-right: 8%;
-     }
-    .header-links{
-        display: none;
-    }
+     } */
+    /* .header-links{ */
+        /* display: none; */
+    /* } */
     
 }
