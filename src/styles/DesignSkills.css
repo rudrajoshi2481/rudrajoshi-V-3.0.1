@@ -1,0 +1,31 @@
+.design-skill-container{
+    background-color: white;
+}
+
+.design-skill-div-padding{
+    margin: 0 10vw;
+}
+
+.design-skill-main-title{
+    padding-top: 5vh;
+}
+
+.design-skill-flex-div{
+}
+
+.design-skill-flex-div-01{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-bottom: 6vw;
+    /* margin: 5vw; */
+}
+
+.design-skill-flex-div-01-badge{
+    margin: .5em;
+    color: white;
+    font-size: 18px;
+    background-color: teal;
+    padding:.5em;
+    border-radius: 5px;
+}

@@ -1,7 +1,8 @@
 .fullstack-info-container{
-    height: 40vh;
+    /* height: 40vh; */
     background-color: #9090FB;
     color: white;
+    padding-bottom:10vh ;
     /* background-color: #6C5FEA; */
     /* background-color: teal; */
 }
@@ -33,14 +34,14 @@
 
 .fullstack-span-pills-frontend{
     margin: .5em;
-    font-size: 20px;
+    font-size: 18px;
     background-color: #FFA402;
     padding:.5em;
     border-radius: 5px;
 }
 .fullstack-span-pills-backend{
     margin: .5em;
-    font-size: 20px;
+    font-size: 18px;
     background-color: #FF6B81;
     padding:.5em;
     border-radius: 5px;
@@ -48,6 +49,14 @@
 
 @media(max-width:600px){
     
+
+    .fullstack-span-pills-frontend{
+        font-size: 15px;
+    }
+
+    .fullstack-span-pills-backend{
+        font-size: 15px;
+    }
     
     .fullstack-div{
         display: flex;

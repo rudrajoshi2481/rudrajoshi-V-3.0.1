@@ -3,6 +3,7 @@ import "./App.css";
 import "./styles/Header.css";
 import "./styles/FullStackInfo.css";
 import "./styles/Body.css";
+import "./styles/DesignSkills.css"
 import { NavLink } from "react-bootstrap";
 
 function App() {
@@ -11,9 +12,44 @@ function App() {
       <Header />
       <Body />
       <FullStackInfo />
+      <DesignSkill />
+      <Footer />
     </div>
   );
 }
+
+const Footer = () => {
+  return(
+    <footer>
+      <h1>Footer</h1>
+    </footer>
+  )
+}
+
+const DesignSkill = () => {
+  return (
+    <div className="design-skill-container">
+        <div className="design-skill-div-01 design-skill-div-padding">
+            <h1 className="design-skill-main-title">Blender | Adobe PS | Substance Designer </h1>
+            <span>I have good (Basic) <strong><i>Blender</i></strong> Skills , to develop low poly 3d-models and optimized for game-assets</span><br />
+            <span>I use <strong><i>Figma</i></strong> for prototype & design , i have decent (basics) skill's in <strong><i>photo-shop</i></strong> </span><br />
+            <span>I am learning <strong><i>Chracter Animation</i></strong> , <strong><i>Blender Stimulation's (manta-flow)</i></strong> , and Unity</span><br />
+            <hr />
+        </div>
+      <div className="design-skill-flex-div design-skill-div-padding">
+        <div className="design-skill-flex-div-01">
+            <h2 className="design-skill-flex-div-01-badge">Blender</h2>
+            <h2 className="design-skill-flex-div-01-badge" >Photoshop</h2>
+            <h2 className="design-skill-flex-div-01-badge" >Substance Designer (Learning)</h2>
+            <h2 className="design-skill-flex-div-01-badge" >substance Painter (Learning)</h2>
+            <h2 className="design-skill-flex-div-01-badge" >After Effects (Learning)</h2>
+            
+          
+        </div>
+      </div>
+    </div>
+  );
+};
 
 const FullStackInfo = () => {
   return (
@@ -22,9 +58,9 @@ const FullStackInfo = () => {
         <h1 className="fullstack-webstack-tag">
           Website and Server Applications <hr color="white" />
         </h1>
-        <div >
+        <div>
           <div className="fullstack-div">
-            <div style={{flex:'1'}}>
+            <div style={{ flex: "1" }}>
               <h2>Front-End</h2>
               <div className="fullstack-span-div">
                 <br />
@@ -44,7 +80,7 @@ const FullStackInfo = () => {
                 <span className="fullstack-span-pills-frontend">React.js</span>
               </div>
             </div>
-            <div style={{flex:'1'}}>
+            <div style={{ flex: "1" }}>
               <h2>Back-End</h2>
               <div className="fullstack-span-div">
                 <br />
