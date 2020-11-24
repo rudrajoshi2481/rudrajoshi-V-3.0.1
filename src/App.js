@@ -4,6 +4,8 @@ import "./styles/Header.css";
 import "./styles/FullStackInfo.css";
 import "./styles/Body.css";
 import "./styles/DesignSkills.css"
+import "./styles/Footer.css"
+
 import { NavLink } from "react-bootstrap";
 
 function App() {
@@ -11,6 +13,7 @@ function App() {
     <div className="App">
       <Header />
       <Body />
+      {/* To add lines of thoughts in full stack Secton  */}
       <FullStackInfo />
       <DesignSkill />
       <Footer />
@@ -20,8 +23,12 @@ function App() {
 
 const Footer = () => {
   return(
-    <footer>
-      <h1>Footer</h1>
+    <footer className="footer-container">
+        <div className="footer-main-div">
+            <h1>Contact Details</h1>
+            <hr color="white" />
+            <h3> Email : rudrajoshi2481@gmail.com</h3>
+        </div>
     </footer>
   )
 }
