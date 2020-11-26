@@ -141,13 +141,13 @@ const FullStackInfo = () => {
                 <span className="fullstack-span-pills-backend">Firebase Firestore</span>
                 <span className="fullstack-span-pills-backend">Firebase Functions</span>
                 <span className="fullstack-span-pills-backend">Firebase Storage</span>
-                <span className="fullstack-span-pills-backend">React.js</span>
-                <span className="fullstack-span-pills-backend">React.js</span>
-                <span className="fullstack-span-pills-backend">React.js</span>
-                <span className="fullstack-span-pills-backend">React.js</span>
-                <span className="fullstack-span-pills-backend">React.js</span>
-                <span className="fullstack-span-pills-backend">React.js</span>
-                <span className="fullstack-span-pills-backend">React.js</span>
+                {/* <span className="fullstack-span-pills-backend">React.js</span> */}
+                {/* <span className="fullstack-span-pills-backend">React.js</span> */}
+                {/* <span className="fullstack-span-pills-backend">React.js</span> */}
+                {/* <span className="fullstack-span-pills-backend">React.js</span> */}
+                {/* <span className="fullstack-span-pills-backend">React.js</span> */}
+                {/* <span className="fullstack-span-pills-backend">React.js</span> */}
+                {/* <span className="fullstack-span-pills-backend">React.js</span> */}
               </div>
             <h2>Others</h2>
               <div className="fullstack-span-div">
