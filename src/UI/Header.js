@@ -20,7 +20,7 @@ const Header = () => {
             <a target="_blank" href="https://github.com/rudrajoshi2481" style={{paddingRight:'1vw',fontSize:'22px'}}>github <i class="fab fa-github"></i></a>
             </li>
             <li>
-              <Link  style={{ color: "black" ,fontSize:'22px',paddingLeft:'1vw'}} to="/masterpiece's">Works</Link>
+              <Link  style={{ color: "black" ,fontSize:'22px',paddingLeft:'1vw'}} to="/about">About ME</Link>
             </li>
             <li>
               {/* <NavLink style={{ color: "black" }}>Blogs</NavLink> */}

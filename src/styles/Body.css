@@ -21,6 +21,17 @@ color: white;
 padding-top:.5em;
 }
 
+@media(min-width:600px){
+    .body-info-hero-title{
+        text-justify: distribute-all-lines;
+    font-size: 62px;
+}   
+.body-info-hero-sub-span{
+    font-size: 37px;
+}
+}
+
+
 @media(max-width:600px){
     .body-info-hero-title{
         text-justify: distribute-all-lines;
@@ -32,5 +43,7 @@ padding-top:.5em;
     position: absolute;
     z-index: 0;
 }
-
+.Masterpiece-button{
+    margin-top: 5em;
+}
 }

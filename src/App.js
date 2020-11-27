@@ -7,7 +7,7 @@ import "./styles/DesignSkills.css"
 import "./styles/Footer.css"
 
 import Header from './UI/Header'
-
+import About from './components/AboutME/About'
 
 
 import {BrowserRouter as Router,Route,Switch,Link} from 'react-router-dom'
@@ -18,6 +18,9 @@ function App() {
     <div className="App">
       <Router>
         <Switch>
+        <Route exact path="/about">
+              <About />
+          </Route>
           <Route exact path="/">
               <FrontPage />
           </Route>
@@ -87,7 +90,9 @@ const FullStackInfo = () => {
     <div className="fullstack-info-container">
       <div className="fullstack-info-main">
         <h1 className="fullstack-webstack-tag">
-          Website and Server Applications <hr color="white" />
+          Website and Server Applications 
+          <p style={{fontSize:'15px'}}>I am Currently working on organics.rudrajoshi.me (Links avaliable soon)</p>
+          <hr color="white" />
         </h1>
         <div>
           <div className="fullstack-div">
@@ -121,9 +126,9 @@ const FullStackInfo = () => {
                 <br />
                 <span className="fullstack-span-pills-frontend">AWS (Amazon Webservices)</span>
                 <span className="fullstack-span-pills-frontend">Machine Learning (Python and R)</span>
-                <span className="fullstack-span-pills-frontend">Nginx.js</span>
-                <span className="fullstack-span-pills-frontend">Github Actions</span>
-                <span className="fullstack-span-pills-frontend">Kubernatice</span>
+                <span className="fullstack-span-pills-frontend">Nginx.js (Basics Learning)</span>
+                {/* <span className="fullstack-span-pills-frontend">Github Actions</span> */}
+                {/* <span className="fullstack-span-pills-frontend">Kubernatice</span> */}
                 <span className="fullstack-span-pills-frontend">Unity Game Engine</span>
                 <span className="fullstack-span-pills-frontend">Electron.js</span>
 
@@ -474,8 +479,8 @@ const Body = () => {
           <div>
             <svg
               style={{paddingRight:'1vw'}}
-              width="100"
-              height="371"
+              width="120"
+              height="471"
               viewBox="0 0 120 271"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -543,11 +548,11 @@ const Body = () => {
             <h1 className="body-info-hero-title">
               Hi, I’m Rudra Joshi,
               <br />
-              I develop website’s,
+              I develop Awesome & responsive website’s,
               <br />
-              Moblie App, Game’s ...{" "}
+              {/* Moblie App, Game’s ...{" "} */}
             </h1>
-            <p>I am a self taught Software Developer , </p>
+            <p className="body-info-hero-sub-span">I am a self taught Software Developer , </p>
       
             <button className="body-info-container-btn Masterpiece-button">
              <Link style={{color:'white',textDecoration:'none'}}  to="/masterpiece's"> <h3> My Master-Piece's </h3></Link>
