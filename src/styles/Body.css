@@ -1,0 +1,49 @@
+.body-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    margin:0 2.5vw ;
+    z-index: 1;
+}
+
+.Masterpiece-button:hover{
+    background-color:tomato;
+
+}
+
+.body-info-container-btn{
+    margin-top: 5%;
+    background: #FF6B81;
+box-shadow: 4px 7px 4px rgba(0, 0, 0, 0.25);
+border-radius: 7px;
+color: white;
+padding-top:.5em;
+}
+
+@media(min-width:600px){
+    .body-info-hero-title{
+        text-justify: distribute-all-lines;
+    font-size: 62px;
+}   
+.body-info-hero-sub-span{
+    font-size: 37px;
+}
+}
+
+
+@media(max-width:600px){
+    .body-info-hero-title{
+        text-justify: distribute-all-lines;
+    font-size: 32px;
+}
+
+
+.body-icons-div{
+    position: absolute;
+    z-index: 0;
+}
+.Masterpiece-button{
+    margin-top: 5em;
+}
+}
