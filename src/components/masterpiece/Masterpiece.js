@@ -41,6 +41,11 @@ const MasterPiece = () => {
             </div>
             <div className="MasterPiece-container-01">
                 <h1>Website Design</h1>
+                <h1><li><a href="http://apprentice.rudrajoshi.me/">Apprintice.com</a></li></h1>
+                {/* <div style={{display:'flex' ,flexWrap:'wrap',alignItems:'center'}}>
+                <iframe style={{width:'50vw',height:'70vh',border:'none'}}  src="http://apprentice.rudrajoshi.me/"></iframe>
+                <div>A sample project for simple website's</div>
+                </div> */}
             </div>
             <div className="MasterPiece-container-01">
                 <h1>Dev-ops Blogs</h1>

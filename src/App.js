@@ -16,6 +16,10 @@ import Masterpiece from './components/masterpiece/Masterpiece'
 function App() {
   return (
     <div className="App">
+      <div style={{padding:'2px 0 ',backgroundColor:'#7868e6',display:'flex',justifyContent:'center'}}>
+      <span>I use Linux 😎</span>
+
+      </div>
       <Router>
         <Switch>
         <Route exact path="/about">
@@ -74,9 +78,9 @@ const DesignSkill = () => {
         <div className="design-skill-flex-div-01">
             <h2 className="design-skill-flex-div-01-badge">Blender</h2>
             <h2 className="design-skill-flex-div-01-badge" >Photoshop</h2>
-            <h2 className="design-skill-flex-div-01-badge" >Substance Designer (Learning)</h2>
-            <h2 className="design-skill-flex-div-01-badge" >substance Painter (Learning)</h2>
-            <h2 className="design-skill-flex-div-01-badge" >After Effects (Learning)</h2>
+            {/* <h2 className="design-skill-flex-div-01-badge" >Substance Designer (Learning)</h2> */}
+            {/* <h2 className="design-skill-flex-div-01-badge" >substance Painter (Learning)</h2> */}
+            {/* <h2 className="design-skill-flex-div-01-badge" >After Effects (Learning)</h2> */}
             
           
         </div>
@@ -476,7 +480,7 @@ const Body = () => {
           style={{ display: "flex", flexDirection: "row",position:'absolute',zIndex:'5' }}
           className="body-info-title"
         >
-          <div>
+          <div className={'img-svg'}>
             <svg
               style={{paddingRight:'1vw'}}
               width="120"
@@ -546,14 +550,16 @@ const Body = () => {
           </div>
           <div className="body-info-main-title">
             <h1 className="body-info-hero-title">
-              Hi, I’m Rudra Joshi,
+               I’m <span style={{color:'#FFA402'}}>Rudra Joshi</span>
               <br />
-              I develop Awesome & responsive website’s,
+              A pharmacy student &<br /> software developer  
               <br />
               {/* Moblie App, Game’s ...{" "} */}
             </h1>
-            <p className="body-info-hero-sub-span">I am a self taught Software Developer , </p>
-      
+            
+            <br />
+            {/* <p className="body-info-hero-sub-span">I am a self taught Software Developer , </p> */}
+            <a href="http://apprentice.rudrajoshi.me/">apprentice.rudrajoshi.me (simple web-app) </a><br />
             <button className="body-info-container-btn Masterpiece-button">
              <Link style={{color:'white',textDecoration:'none'}}  to="/masterpiece's"> <h3> My Master-Piece's </h3></Link>
             </button>

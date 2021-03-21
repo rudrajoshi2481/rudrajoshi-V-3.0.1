@@ -6,16 +6,23 @@
     /* font-family: 'Montserrat', sans-serif; */
     font-family: 'Righteous', cursive;
     background-color: #F8EFE8;
+    /* max-width: 10vw; */
 }
 
 
-
-
+::-webkit-scrollbar{
+    display: none;
+}
 
 
 @media (max-width:700px){
     .App{
         margin-left:0;
         margin-right:0
+    }
+    
+    .img-svg-size-change{
+        /* display: none; */
+        /* width: 15vw; */
     }
 }
