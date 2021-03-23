@@ -4,8 +4,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 .App{
     /* font-family: 'Montserrat', sans-serif; */
-    font-family: 'Righteous', cursive;
+    /* font-family: 'Righteous', cursive; */
     background-color: #F8EFE8;
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 900;
     /* max-width: 10vw; */
 }
 

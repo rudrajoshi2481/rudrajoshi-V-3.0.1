@@ -57,7 +57,7 @@ const Footer = () => {
         <div className="footer-main-div">
             <h1>Contact Details</h1>
             <hr color="white" />
-            <h3> Email : rudrajoshi2481@gmail.com</h3>
+            <span style={{fontWeight:'400'}}> Email : rudrajoshi2481@gmail.com</span>
             <h3> <a target="_blank" href="https://github.com/rudrajoshi2481" style={{paddingRight:'1vw',color:'white'}}><i class="fab fa-github"></i></a></h3>
         </div>
     </footer>
@@ -93,7 +93,7 @@ const FullStackInfo = () => {
   return (
     <div className="fullstack-info-container">
       <div className="fullstack-info-main">
-        <h1 className="fullstack-webstack-tag">
+        <h1 className="fullstack-webstack-tag" >
           Website and Server Applications 
           <p style={{fontSize:'15px'}}>I am Currently working on organics.rudrajoshi.me (Links avaliable soon)</p>
           <hr color="white" />
@@ -146,9 +146,10 @@ const FullStackInfo = () => {
                 <span className="fullstack-span-pills-backend">Node.js</span>
                 <span className="fullstack-span-pills-backend">express.js</span>
                 <span className="fullstack-span-pills-backend">WebSockets(Tcp & Udp from Scratch)</span>
-                <span className="fullstack-span-pills-backend">Mongo Db (Basics)</span>
+                <span className="fullstack-span-pills-backend">Mongo Db </span>
                 <span className="fullstack-span-pills-backend">Firebase Firestore</span>
                 <span className="fullstack-span-pills-backend">Firebase Functions</span>
+                <span className="fullstack-span-pills-backend">Github Actions</span>
                 <span className="fullstack-span-pills-backend">Firebase Storage</span>
                 {/* <span className="fullstack-span-pills-backend">React.js</span> */}
                 {/* <span className="fullstack-span-pills-backend">React.js</span> */}
@@ -560,6 +561,8 @@ const Body = () => {
             <br />
             {/* <p className="body-info-hero-sub-span">I am a self taught Software Developer , </p> */}
             <a href="http://apprentice.rudrajoshi.me/">apprentice.rudrajoshi.me (simple web-app) </a><br />
+            <a href="http://storybook.rudrajoshi.me/">storybook.rudrajoshi.me (Blog website with text-editor) </a><br />
+            {/* http://storybook.rudrajoshi.me/ */}
             <button className="body-info-container-btn Masterpiece-button">
              <Link style={{color:'white',textDecoration:'none'}}  to="/masterpiece's"> <h3> My Master-Piece's </h3></Link>
             </button>

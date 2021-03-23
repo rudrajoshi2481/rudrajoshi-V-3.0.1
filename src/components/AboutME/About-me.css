@@ -1,0 +1,37 @@
+.about-me-container{
+    height: 100vh;   
+    /* padding:0 15px   ; */
+    background: white;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    font-size: calc(18px + .5em);
+    /* text-justify: i; */
+}
+
+.about-me-container-site{
+    padding: 5vh 0vw;
+    font-weight: 600;
+}
+
+
+@media (max-width:600px) {
+    .about-me-container{
+        font-size: 18px;
+        /* font-size: calc(18px + .5em); */
+        /* background-color: rebeccapurple; */
+    }
+}
+
+
+
+.about-me-hero{
+    font-weight: 500;
+    margin: 0 15vw;
+}
+
+.highlight-about-me-hero{
+    color: teal;
+}
+
